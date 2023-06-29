@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 importers:
 
   .:
@@ -29,7 +25,7 @@ importers:
         version: 1.9.0
       '@tresjs/cientos':
         specifier: 2.1.4
-        version: 2.1.4(@tresjs/core@)(three@0.153.0)(vue@3.3.4)
+        version: 2.1.4(@tresjs/core@)(three@0.154.0)(vue@3.3.4)
       '@types/three':
         specifier: ^0.152.1
         version: 0.152.1
@@ -94,8 +90,8 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
       three:
-        specifier: ^0.153.0
-        version: 0.153.0
+        specifier: ^0.154.0
+        version: 0.154.0
       unocss:
         specifier: ^0.53.3
         version: 0.53.3(postcss@8.4.24)(vite@4.3.9)
@@ -152,7 +148,7 @@ importers:
     dependencies:
       '@tresjs/cientos':
         specifier: 2.1.4
-        version: 2.1.4(@tresjs/core@)(three@0.153.0)(vue@3.3.4)
+        version: 2.1.4(@tresjs/core@)(three@0.154.0)(vue@3.3.4)
       vue-router:
         specifier: ^4.2.2
         version: 4.2.2(vue@3.3.4)
@@ -1161,7 +1157,7 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@tresjs/cientos@2.1.4(@tresjs/core@)(three@0.153.0)(vue@3.3.4):
+  /@tresjs/cientos@2.1.4(@tresjs/core@)(three@0.154.0)(vue@3.3.4):
     resolution: {integrity: sha512-K6G9XwIKC6Zg855Rh8YrBs8TZJlJv4AoJZZ9mc0fgG64V1qWDqTQsR3yhIsfPp2NPM8+NI4URPCAR4HybbgppQ==}
     peerDependencies:
       '@tresjs/core': '>=2.1.3'
@@ -1170,8 +1166,8 @@ packages:
     dependencies:
       '@tresjs/core': 'link:'
       '@vueuse/core': 10.2.0(vue@3.3.4)
-      three: 0.153.0
-      three-stdlib: 2.23.10(three@0.153.0)
+      three: 0.154.0
+      three-stdlib: 2.23.10(three@0.154.0)
       vue: 3.3.4
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -6605,7 +6601,7 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
-  /three-stdlib@2.23.10(three@0.153.0):
+  /three-stdlib@2.23.10(three@0.154.0):
     resolution: {integrity: sha512-y0DlxaN5HZXI9hKjEtqO2xlCEt7XyDCOMvD2M3JJFBmYjwbU+PbJ1n3Z+7Hr/6BeVGE6KZYcqPMnfKrTK5WTJg==}
     peerDependencies:
       three: '>=0.128.0'
@@ -6620,11 +6616,15 @@ packages:
       mmd-parser: 1.0.4
       opentype.js: 1.3.4
       potpack: 1.0.2
-      three: 0.153.0
+      three: 0.154.0
       zstddec: 0.0.2
 
   /three@0.153.0:
     resolution: {integrity: sha512-OCP2/uQR6GcDpSLnJt/3a4mdS0kNWcbfUXIwLoEMgLzEUIVIYsSDwskpmOii/AkDM+BBwrl6+CKgrjX9+E2aWg==}
+    dev: true
+
+  /three@0.154.0:
+    resolution: {integrity: sha512-Uzz8C/5GesJzv8i+Y2prEMYUwodwZySPcNhuJUdsVMH2Yn4Nm8qlbQe6qRN5fOhg55XB0WiLfTPBxVHxpE60ug==}
 
   /through2@2.0.5:
     resolution: {integrity: sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==}
@@ -7777,3 +7777,7 @@ packages:
 
   /zstddec@0.0.2:
     resolution: {integrity: sha512-DCo0oxvcvOTGP/f5FA6tz2Z6wF+FIcEApSTu0zV5sQgn9hoT5lZ9YRAKUraxt9oP7l4e8TnNdi8IZTCX6WCkwA==}
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
